@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-t2s">
+              <span class="suite-name border-passed">t2s</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-t2s">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-t2s">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-t2s">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-t2s">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-t2s">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-t2s">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-t2s">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,21 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-t2s" class="hide-methods passed suite-t2s"> (hide)</a> <!-- hide-methods passed suite-t2s -->
+                      <a href="#" panel-name="suite-t2s" class="show-methods passed suite-t2s"> (show)</a> <!-- show-methods passed suite-t2s -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-t2s">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.t2s.testScripts.contactPageTest" hash-for-method="contactPageTests">contactPageTests</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.contactPageTest" hash-for-method="contactPageTests">contactPageTests</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.orderPageTest" hash-for-method="orderPageTests">orderPageTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-t2s -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -115,10 +120,10 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-t2s" class="panel t2s">
+          <div class="suite-t2s-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.t2s.testScripts.contactPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -127,139 +132,299 @@
                   <a name="contactPageTests">
                   </a> <!-- contactPageTests -->
                   <span class="method-name">contactPageTests</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	Door Number Mismatch expected [true] but found [false],
-	City Mismatch expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.t2s.pagelocators.contactPageRepo.verifyAddress(contactPageRepo.java:52)
-	at com.t2s.testScripts.contactPageTest.contactPageTests(contactPageTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-t2s-class-passed -->
+          <div class="suite-t2s-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.t2s.testScripts.orderPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderPageTests">
+                  </a> <!-- orderPageTests -->
+                  <span class="method-name">orderPageTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-t2s-class-passed -->
+        </div> <!-- panel t2s -->
+        <div panel-name="test-xml-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--397768656/testng-customsuite.xml</span>
+            <span class="header-content">/home/dev/git2/T2STest/src/main/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;t2s&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.t2s.listners.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Contact Page Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.t2s.testScripts.contactPageTest&quot;/&gt;
+      &lt;class name=&quot;com.t2s.testScripts.orderPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Contact Page Tests --&gt;
+&lt;/suite&gt; &lt;!-- t2s --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for t2s</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Contact Page Tests (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for t2s</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for t2s</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_t2s');
+function tableData_t2s() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'contactPageTests')
-data.setCell(0, 2, 'com.t2s.testScripts.contactPageTest')
-data.setCell(0, 3, 18157);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'orderPageTests')
+data.setCell(0, 2, 'com.t2s.testScripts.orderPageTest')
+data.setCell(0, 3, 66939);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'contactPageTests')
+data.setCell(1, 2, 'com.t2s.testScripts.contactPageTest')
+data.setCell(1, 3, 22557);
+window.suiteTableData['t2s']= { tableData: data, tableDiv: 'times-div-t2s'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-t2s">
+              </div> <!-- times-div-t2s -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for t2s</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
               <span class="reporter-method-name">contactPageTests</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened</span>
                 <span class="reporter-method-output">The title is - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online</span>
                 <span class="reporter-method-output">waiting for page to load..</span>
                 <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Clicked on Contact link</span>
                 <span class="reporter-method-output">waiting for page to load..</span>
                 <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Validation done Validate Contact us header</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Customer Name</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - DoorNumber</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Street</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Town</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - City</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - PostCode</span>
+                <span class="reporter-method-output">Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened</span>
                 <span class="reporter-method-output">The title is - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online</span>
                 <span class="reporter-method-output">waiting for page to load..</span>
                 <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Clicked on Contact link</span>
                 <span class="reporter-method-output">waiting for page to load..</span>
                 <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Validation done Validate Contact us header</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Customer Name</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - DoorNumber</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Street</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - Town</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - City</span>
+                <span class="reporter-method-output">Validation done Validate Contact page - PostCode</span>
+                <span class="reporter-method-output">Close browser error</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">orderPageTests</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened</span>
+                <span class="reporter-method-output">waiting for page to load..</span>
+                <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">waiting for page to load..</span>
+                <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Validation done Validate delivery option</span>
+                <span class="reporter-method-output">Validation done Validate delivery option</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened</span>
+                <span class="reporter-method-output">waiting for page to load..</span>
+                <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">waiting for page to load..</span>
+                <span class="reporter-method-output">Page is loaded</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]</span>
+                <span class="reporter-method-output">Validation done Validate delivery option</span>
+                <span class="reporter-method-output">Validation done Validate delivery option</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Validation done Validate Menu options</span>
+                <span class="reporter-method-output">Close browser error</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -267,10 +432,15 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.t2s.testScripts.contactPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">contactPageTests</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.t2s.testScripts.orderPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">orderPageTests</span>
+                <span class="method-start">22558 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

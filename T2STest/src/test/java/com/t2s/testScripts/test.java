@@ -20,7 +20,8 @@ public class test {
 	{
 		//try{
 			WebDriver driver = new ChromeDriver();
-			driver.get("https://foodhub.co.uk/home");
+		//	driver.get("http://d-188.t2scdn.com/");
+			driver.get("https://foodhub.co.uk/list/ST66DX");
 			Thread.sleep(5000);
 			
 		//	/html/body/div/my-app/home/footer/div/div/div[1]/p/a[1]

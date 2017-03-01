@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[From listner - Starting the test org.testng.TestRunner@a2f921]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
     <line>
       <![CDATA[The title is - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online]]>
     </line>
@@ -11,10 +17,37 @@
       <![CDATA[Page is loaded]]>
     </line>
     <line>
+      <![CDATA[Clicked on Contact link]]>
+    </line>
+    <line>
       <![CDATA[waiting for page to load..]]>
     </line>
     <line>
       <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact us header]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Customer Name]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - DoorNumber]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Street]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Town]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - City]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - PostCode]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
     </line>
     <line>
       <![CDATA[The title is - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online]]>
@@ -26,59 +59,484 @@
       <![CDATA[Page is loaded]]>
     </line>
     <line>
+      <![CDATA[Clicked on Contact link]]>
+    </line>
+    <line>
       <![CDATA[waiting for page to load..]]>
     </line>
     <line>
       <![CDATA[Page is loaded]]>
     </line>
+    <line>
+      <![CDATA[Validation done Validate Contact us header]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Customer Name]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - DoorNumber]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Street]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - Town]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - City]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Contact page - PostCode]]>
+    </line>
+    <line>
+      <![CDATA[Close browser error]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Close browser error]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18184" started-at="2017-03-01T05:53:08Z" finished-at="2017-03-01T05:53:26Z">
+  <suite name="t2s" duration-ms="89514" started-at="2017-03-01T15:18:29Z" finished-at="2017-03-01T15:19:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18184" started-at="2017-03-01T05:53:08Z" finished-at="2017-03-01T05:53:26Z">
+    <test name="Contact Page Tests" duration-ms="89514" started-at="2017-03-01T15:18:29Z" finished-at="2017-03-01T15:19:58Z">
       <class name="com.t2s.testScripts.contactPageTest">
-        <test-method status="FAIL" signature="contactPageTests()[pri:1, instance:com.t2s.testScripts.contactPageTest@127bd23]" name="contactPageTests" duration-ms="18157" started-at="2017-03-01T11:23:08Z" finished-at="2017-03-01T11:23:26Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-	Door Number Mismatch expected [true] but found [false],
-	City Mismatch expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-	Door Number Mismatch expected [true] but found [false],
-	City Mismatch expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.t2s.pagelocators.contactPageRepo.verifyAddress(contactPageRepo.java:52)
-	at com.t2s.testScripts.contactPageTest.contactPageTests(contactPageTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="contactPageTests()[pri:1, instance:com.t2s.testScripts.contactPageTest@1040f2f]" name="contactPageTests" duration-ms="22557" started-at="2017-03-01T20:48:29Z" finished-at="2017-03-01T20:48:51Z">
           <reporter-output>
+            <line>
+              <![CDATA[Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
             <line>
               <![CDATA[The title is - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online]]>
             </line>
@@ -89,10 +547,37 @@
               <![CDATA[Page is loaded]]>
             </line>
             <line>
+              <![CDATA[Clicked on Contact link]]>
+            </line>
+            <line>
               <![CDATA[waiting for page to load..]]>
             </line>
             <line>
               <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact us header]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Customer Name]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - DoorNumber]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Street]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Town]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - City]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - PostCode]]>
+            </line>
+            <line>
+              <![CDATA[Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
             </line>
             <line>
               <![CDATA[The title is - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Online]]>
@@ -104,14 +589,482 @@
               <![CDATA[Page is loaded]]>
             </line>
             <line>
+              <![CDATA[Clicked on Contact link]]>
+            </line>
+            <line>
               <![CDATA[waiting for page to load..]]>
             </line>
             <line>
               <![CDATA[Page is loaded]]>
             </line>
+            <line>
+              <![CDATA[Validation done Validate Contact us header]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Customer Name]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - DoorNumber]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Street]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - Town]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - City]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Contact page - PostCode]]>
+            </line>
+            <line>
+              <![CDATA[Close browser error]]>
+            </line>
           </reporter-output>
         </test-method> <!-- contactPageTests -->
       </class> <!-- com.t2s.testScripts.contactPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.t2s.testScripts.orderPageTest">
+        <test-method status="PASS" signature="orderPageTests()[pri:1, instance:com.t2s.testScripts.orderPageTest@15710fc]" name="orderPageTests" duration-ms="66939" started-at="2017-03-01T20:48:51Z" finished-at="2017-03-01T20:49:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser with title - DEV - d-166.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Browser with title - DEV - d-188.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[PhantomJSDriver: phantomjs on LINUX (606c2800-fe92-11e6-9ff9-031ed7c2ba7c)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Close browser error]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderPageTests -->
+      </class> <!-- com.t2s.testScripts.orderPageTest -->
+    </test> <!-- Contact Page Tests -->
+  </suite> <!-- t2s -->
 </testng-results>

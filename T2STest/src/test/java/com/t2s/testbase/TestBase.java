@@ -44,8 +44,15 @@ public class TestBase extends Utils {
 	public void openURL(String url)
 	{
 		//driver = selectBrowser(Repository.getProperty("browser"));
+		try{
 		driver.get(url);
 		driver.manage().window().setSize(new Dimension(1280, 1024));
+		Reporter.log("Browser with title - "+ driver.getTitle()+"opened");
+		System.out.println(driver.getTitle());
+		}catch(Exception e)
+		{
+			Reporter.log("Error opening browser - "+e.getMessage());
+		}
 	}
 	
 	
@@ -136,7 +143,7 @@ public String setText (String locator,String textToEnter)
 	}
     catch (Throwable error)
     { 	
-    	Reporter.log("Text --> '"+textToEnter+"' not entered in text field --> '" + locator + "'.Error -" + error.getMessage()); 
+    Reporter.log("Text --> '"+textToEnter+"' not entered in text field --> '" + locator + "'.Error -" + error.getMessage()); 
     return "Fail"; 
     }
 	
@@ -214,7 +221,7 @@ public String getValue (String locator)
 public String closeBrowser()
 {   
 	try{
-	driver.quit();
+	driver.close();
 	Reporter.log("Close browser error");
 	return "Pass";
 	}
@@ -229,7 +236,7 @@ public String closeBrowser(WebDriver driver)
 {   
 	try{
 	
-	driver.close();;
+	driver.close();
 	Reporter.log("Browser closed");
 	return "Pass";
 	}
@@ -296,7 +303,31 @@ return pageTexts;
 
 
 
+public ArrayList<String> verifyChildItems(WebElement ele) throws InterruptedException
+{
+	Thread.sleep(2000);
+List<WebElement> childs = ele.findElements(By.xpath(".//*"));
+ArrayList<String> pageTexts = new ArrayList<String>();
+for (WebElement e  : childs)
+{
+  String st = e.getText();
+  //String tagName = e.getTagName();
+	if (st.isEmpty())
+	{
+		Reporter.log("No child items retreived for element - " + ele);
+	}
+	else
+	{	
+		//pageTexts.add(e.getTagName());
+		Reporter.log("Child items retreived for element - " + ele);
+		pageTexts.add(e.getText());
+	}
 
+	
+} 
+
+return pageTexts;
+}
 
 
 

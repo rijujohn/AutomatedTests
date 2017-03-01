@@ -6,7 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.ExtentReports;
 import com.t2s.excelReader.ODSReader;
+import com.t2s.extent.ExtentManager;
 import com.t2s.pagelocators.contactPageRepo;
 import com.t2s.testbase.TestBase;
 
@@ -27,7 +29,7 @@ public class contactPageTest extends TestBase{
     @Test(priority = 1)
 	public void contactPageTests() throws Exception
 	{
-
+    	    ExtentReports rep = ExtentManager.getInstances();
 			ODSReader objODSReader = new ODSReader();
 			mapData = objODSReader.readODS(inputFile,inputSheetName);
 			intRCount = objODSReader.getRowCount(inputFile, inputSheetName);
@@ -47,16 +49,17 @@ public class contactPageTest extends TestBase{
 			String strCity = mapData.get(i+"City");
 			String strPostCode = mapData.get(i+"PostCode");
 
-		    
+			test = rep.startTest("Contact Page Validations.Data Set "+ strURL);
 			openURL(strURL);
-            // System.out.println("The title is - "+ driver.getTitle());
             Reporter.log("The title is - "+ driver.getTitle());
 		    implicitWait(waitTime);
 			ContactPage.clickContactLink();
-			//Thread.sleep(70);
 			implicitWait(waitTime);
 			ContactPage.verifyContactPageHeader();
 			ContactPage.verifyAddress(strCustomerName, strDoorNumber, strStreet, strTown,strCity,strPostCode);
+			
+	    	rep.endTest(test);
+	    	rep.flush();
 			}
 			closeBrowser();
 			Thread.sleep(70);
