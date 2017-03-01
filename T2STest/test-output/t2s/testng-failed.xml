@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [t2s]">
+  <listeners>
+    <listener class-name="com.t2s.listners.Listener"/>
+  </listeners>
+  <test name="Forgot Password Tests">
+    <classes>
+      <class name="com.t2s.testScripts.testforgotPassWord"/>
+    </classes>
+  </test> <!-- Forgot Password Tests -->
+  <test name="Forgot Password Tests(failed)">
+    <classes>
+      <class name="com.t2s.testScripts.testforgotPassWord">
+        <methods>
+          <include name="openForgotPasswordFrame"/>
+          <include name="openHomePage"/>
+          <include name="closeforgotPasswordFrame"/>
+          <include name="testforgotPasswordFrame"/>
+        </methods>
+      </class> <!-- com.t2s.testScripts.testforgotPassWord -->
+    </classes>
+  </test> <!-- Forgot Password Tests(failed) -->
+</suite> <!-- Failed suite [t2s] -->

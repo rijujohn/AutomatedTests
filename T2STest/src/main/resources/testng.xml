@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="t2s">
+
+<listeners>
+ 
+ <listener class-name="com.t2s.listners.Listener"></listener>
+ 
+ </listeners>
+  <test name="Contact Page Tests" allow-return-values="true">
+    <classes>
+       <class name="com.t2s.testScripts.contactPageTest"/>
+       
+    </classes>
+  </test>
+   
+  
+</suite> <!-- Suite -->
+
+
