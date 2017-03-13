@@ -266,12 +266,12 @@ public class Utils {
 	{   String filePathNew = fntakeScreenShot(filePath,driver);
 		if(stActual.equals(stExpected))
 		{   
-			passMessage = passMessage +"Actual Value - "+ stActual + "Expected Value"+ stExpected ;
+			passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
 			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
 		}
 		else
 		{
-			failMessage = failMessage +"Actual Value - "+ stActual + "Expected Value"+ stExpected ;
+			failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
 			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
 		}	
 		Reporter.log("Validation done " + testStep);
@@ -281,12 +281,12 @@ public class Utils {
 	{   String filePathNew = fntakeScreenShot(filePath,driver);
 		if(stActual.contains(stExpected))
 		{   
-			passMessage = passMessage +"Actual Value - "+ stActual + "Expected Value"+ stExpected ;
+			passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
 			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
 		}
 		else
 		{
-			failMessage = failMessage +"Actual Value - "+ stActual + "Expected Value"+ stExpected ;
+			failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
 			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
 		}	
 		Reporter.log("Validation done " + testStep);
@@ -296,12 +296,12 @@ public class Utils {
 	{   String filePathNew = fntakeScreenShot(filePath,driver);
 		if(stActual.contains(stExpected))
 		{   
-			passMessage = passMessage + "Expected Value"+ stExpected ;
+			passMessage = passMessage + ".Expected Value - "+ stExpected ;
 			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
 		}
 		else
 		{
-			failMessage = failMessage + "Expected Value"+ stExpected ;
+			failMessage = failMessage + ".Expected Value - "+ stExpected ;
 			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
 		}	
 		Reporter.log("Validation done " + testStep);

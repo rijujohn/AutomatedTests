@@ -11,6 +11,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -300,7 +301,15 @@ for (WebElement e  : childs)
 return pageTexts;
 }
 
+public void jsExecutor(String script) {
+    JavascriptExecutor jsx = (JavascriptExecutor) driver;
+    jsx.executeScript(script);
+}
 
+public void jsExecutor(String script, WebElement element) {
+    JavascriptExecutor jsx = (JavascriptExecutor) driver;
+    jsx.executeScript(script, element);
+}
 
 
 public ArrayList<String> verifyChildItems(WebElement ele) throws InterruptedException
