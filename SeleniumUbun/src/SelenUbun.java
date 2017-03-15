@@ -21,7 +21,7 @@ public class SelenUbun {
 	    }
 	    catch (Exception e)
 	    {
-	    		System.out.println("sdf message dsf"+ e.getMessage());	
+	    		System.out.println("sdf and hello there message dsf"+ e.getMessage());	
 	    }
 	    
 	 //http://askubuntu.com/questions/681312/how-to-update-firefox-on-ubuntu   
