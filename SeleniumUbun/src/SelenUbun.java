@@ -16,12 +16,12 @@ public class SelenUbun {
 		//	WebDriver driver = new FirefoxDriver();
 		driver.get("http://d-166.t2scdn.com/");
 		Thread.sleep(40);
-		driver.findElement(By.linkText("Contacts")).click();
+		driver.findElement(By.linkText("Contacts Us")).click();
 		////*[@id="contactus-pag-sec"]/div/div[2]/div[2]/div[4]
 	    }
 	    catch (Exception e)
 	    {
-	    		System.out.println("sdf message dsf"+ e.getMessage());	
+	    		System.out.println("sdf and hello there message dsf"+ e.getMessage());	
 	    }
 	    
 	 //http://askubuntu.com/questions/681312/how-to-update-firefox-on-ubuntu   
