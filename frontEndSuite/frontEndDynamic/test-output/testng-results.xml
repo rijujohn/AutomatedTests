@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load..]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate delivery option]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Menu options]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate PopUP title]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Delivery checkbox present]]>
+    </line>
+    <line>
+      <![CDATA[Validation done Validate Collection checkbox not present]]>
+    </line>
+    <line>
+      <![CDATA[Close browser error]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48002" started-at="2017-03-16T13:04:34Z" finished-at="2017-03-16T13:05:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48002" started-at="2017-03-16T13:04:34Z" finished-at="2017-03-16T13:05:22Z">
+      <class name="com.uktech.test.frontEnd_Dynamic.orderPageTest">
+        <test-method status="PASS" signature="orderPageTests()[pri:1, instance:com.uktech.test.frontEnd_Dynamic.orderPageTest@1567f1]" name="orderPageTests" duration-ms="47989" started-at="2017-03-16T18:34:34Z" finished-at="2017-03-16T18:35:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Browser with title - DEV - d-372.t2scdn.com | King Kebab, Wisbech, Cambridgeshire, Takeaway Order Onlineopened]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[waiting for page to load..]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: waiting-time]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate delivery option]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: side-category-menu]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Menu options]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate PopUP title]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[Child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[No child items retreived for element - [[ChromeDriver: chrome on LINUX (fef70322eadb33aaa3e3ccd7a0cdc92f)] -> id: selections]]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Delivery checkbox present]]>
+            </line>
+            <line>
+              <![CDATA[Validation done Validate Collection checkbox not present]]>
+            </line>
+            <line>
+              <![CDATA[Close browser error]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderPageTests -->
+      </class> <!-- com.uktech.test.frontEnd_Dynamic.orderPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
