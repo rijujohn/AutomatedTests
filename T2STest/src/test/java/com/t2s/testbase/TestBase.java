@@ -5,19 +5,27 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
+import org.testng.asserts.SoftAssert;
 
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.t2s.excelReader.Xls_Reader;
 import com.t2s.testutil.Utils;
 
@@ -27,21 +35,43 @@ public class TestBase extends Utils {
 	public File f;
 	public FileInputStream FI;
 	public Xls_Reader Data;
-	public String BrowserRunType = Repository.getProperty("browser");
 
-    public WebDriver driver;
+	public String BrowserRunType = Repository.getProperty("browser");
+	public String TakeScreenShot;
+	public String jsonBodyPath = System.getProperty("user.dir") + "/src/test/java/com/t2s/testData/";
+	public String inputFileString = System.getProperty("user.dir") + "//src//test//java//com//t2s//testData//Input.ods";
+	public String contactData = "Contact";
+	public String orderData = "Order";
+	public int waitTime = 100;
+	
+	
+	
+	
+	
+	//   public WebDriver driver;
 
 	
 	public void initializeBrowser() throws IOException 
 	{
 		loadPropertiesFile();
 		driver = selectBrowser(Repository.getProperty("browser"));
-		//implicitWait(30);
+		//TakeScreenShot = Repository.getProperty("takeScreenShot");
+		implicitWait(30);
 		//driver.get(Repository.getProperty("url"));
       //  Repository.getProperty("url");
 		
 	}
 	
+	public String initializeSnapShot() throws IOException 
+	{
+		loadPropertiesFile();
+		return Repository.getProperty("takeScreenShot");
+		//implicitWait(30);
+		//driver.get(Repository.getProperty("url"));
+      //  Repository.getProperty("url");
+		
+	}
+
 	public void openURL(String url)
 	{
 		//driver = selectBrowser(Repository.getProperty("browser"));
@@ -63,9 +93,9 @@ public void loadPropertiesFile() throws IOException
     FI = new FileInputStream(f);
     Repository.load(FI);
     
-	f = new File(System.getProperty("user.dir")+"//src//test//java//com//t2s//pagelocators//homePage.properties");
-    FI = new FileInputStream(f);
-    Repository.load(FI);
+	//f = new File(System.getProperty("user.dir")+"//src//test//java//com//t2s//pagelocators//homePage.properties");
+    //FI = new FileInputStream(f);
+    //Repository.load(FI);
     
    
 }
@@ -200,6 +230,18 @@ public String getText(String locator) throws Exception
 	Reporter.log("Text --> '" + eleText + "' was retreived for field --> '"+ locator +"'");
 	return eleText;
 }
+
+public String verifyWebElementDIsplayed(WebElement ele)
+{
+	if (ele.isDisplayed())
+	{ return "Displayed";}
+	else
+	{return "Not Displayed";}
+	
+}
+
+
+
 //.getAttribute("value");
 
 public String getValue (String locator)
@@ -247,6 +289,179 @@ public String closeBrowser(WebDriver driver)
 	return "Fail";	
 	}
 }
+
+
+
+
+
+
+/////////////////////
+
+
+public void fnExtentCompareString (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage) throws IOException
+{   String filePathNew = fntakeScreenShot(filePath,driver);
+	if(stActual.equals(stExpected))
+	{   
+		passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
+		//test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
+		fnlogResults(filePathNew,"PASS",testStep,passMessage,failMessage);
+	}
+	else
+	{
+		failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
+		fnlogResults(filePathNew,"FAIL",testStep,passMessage,failMessage);
+		//test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
+	}	
+	Reporter.log("Validation done " + testStep);
+	}
+
+public void fnExtentContainsString (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage) throws IOException
+{   String filePathNew = fntakeScreenShot(filePath,driver);
+	if(stActual.contains(stExpected))
+	{   
+		passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"PASS",testStep,passMessage,failMessage);
+	//	test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
+	}
+	else
+	{
+		failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"FAIL",testStep,passMessage,failMessage);
+		//test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
+	}	
+	Reporter.log("Validation done " + testStep);
+	}
+
+public void fnExtentNOTContainsString (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage) throws IOException
+{   String filePathNew = fntakeScreenShot(filePath,driver);
+	if(!stActual.contains(stExpected))
+	{   
+		passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"PASS",testStep,passMessage,failMessage);
+	//	test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
+	}
+	else
+	{
+		failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"FAIL",testStep,passMessage,failMessage);
+		//test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
+	}	
+	Reporter.log("Validation done " + testStep);
+	}
+
+
+
+
+
+
+
+public void fnExtentContainsStringPar (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage) throws IOException
+{   String filePathNew = fntakeScreenShot(filePath,driver);
+	if(stActual.contains(stExpected))
+	{   
+		passMessage = passMessage + ".Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"PASS",testStep,passMessage,failMessage);
+		//test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
+	}
+	else
+	{
+		failMessage = failMessage + ".Expected Value - "+ stExpected ;
+		fnlogResults(filePathNew,"FAIL",testStep,passMessage,failMessage);
+		//test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
+	}	
+	Reporter.log("Validation done " + testStep);
+	}
+
+public String fntakeScreenShot(String filePath,WebDriver driver) throws IOException {
+TakeScreenShot = initializeSnapShot();
+if (TakeScreenShot.equals("YES"))	
+{
+	 String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+	  filePath = filePath + timeStamp +".jpg" ;
+	 //filePath = "C:\\Users\\dell\\workspace\\Extent_Reports\\image\\test1.jpg";
+	 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+     //The below method will save the screen shot in d drive with test method name 
+        try {
+			FileUtils.copyFile(scrFile, new File(filePath));
+			System.out.println("***Placed screen shot in "+ filePath +" ***");
+			return filePath;
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("***Error While placing screen shot "+ e.getMessage());
+			return null;
+		}
+  }
+		else
+		{
+			return null;
+		}
+        }
+
+
+public void fnCheckAndLogExtentResult(String stepResult,String description, String passMessage,String failMessage) throws IOException{
+String filePathNew = fntakeScreenShot(filePath,driver);
+if (stepResult.equals("Pass"))
+{
+fnlogResults(filePathNew,"PASS",description,passMessage,failMessage);
+
+//if (filePathNew != null)
+//{	
+//   test.log(LogStatus.PASS,description, passMessage + test.addScreenCapture(filePathNew));
+//}
+//else
+//{
+//test.log(LogStatus.PASS,description, passMessage);	
+//}	
+}
+else
+{ fnlogResults(filePathNew,"FAIL",description,passMessage,failMessage);
+//	if (filePathNew != null)	
+//	{	
+//	test.log(LogStatus.FAIL,description, failMessage + test.addScreenCapture(filePathNew));
+//	}
+//	else
+//	{
+//	test.log(LogStatus.FAIL,description, failMessage);	
+//	}	
+
+
+}	
+
+}
+
+
+public void fnlogResults(String filePathNew,String passStatus,String description,String passMessage,String failMessage)
+{
+if (filePathNew != null && passStatus == "PASS")
+{	
+test.log(LogStatus.PASS,description, passMessage + test.addScreenCapture(filePathNew));
+}
+else if (filePathNew == null && passStatus == "PASS")
+{
+test.log(LogStatus.PASS,description, passMessage);	
+}	
+
+else if (filePathNew != null && passStatus == "FAIL")	
+{	
+test.log(LogStatus.FAIL,description, failMessage + test.addScreenCapture(filePathNew));
+}
+else if (filePathNew == null && passStatus == "FAIL")
+{
+test.log(LogStatus.FAIL,description, failMessage);	
+}	
+}
+
+
+
+
+///////////////////
+
+
+
+
+
+
 
 public Object[][] getData (String ExcelSheetName,String testCase)
 {
@@ -340,6 +555,15 @@ return pageTexts;
 
 
 
+
+
+
+
+public void fnScrollToElement(WebElement elem)
+{
+((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", elem);
+//Thread.sleep(50); 
+}
 
 
 }

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.t2s.excelReader.ODSReader;
 import com.t2s.prepare.PrepareEnvForTests;
 
-public class createTestDataAPI {
+public class zDATACreationCreateWithAPI {
 
 	
 	

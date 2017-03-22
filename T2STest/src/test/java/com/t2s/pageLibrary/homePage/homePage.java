@@ -1,5 +1,6 @@
 package com.t2s.pageLibrary.homePage;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
@@ -12,7 +13,7 @@ public class homePage extends TestBase {
 	
 	
 	
-	public void validateCalculation(String firstVal,String secondVal,String validateString,String operator )
+	public void validateCalculation(String firstVal,String secondVal,String validateString,String operator ) throws IOException
 	{
 		String stepResult = setText ("t2s.calchomePage.txtFirstVal",firstVal);
 		fnCheckAndLogExtentResult(stepResult,"Enter data in first numeric field","Data entered ","Unable to enter data");

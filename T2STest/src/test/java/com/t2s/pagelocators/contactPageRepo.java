@@ -3,6 +3,7 @@ package com.t2s.pagelocators;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,9 +20,8 @@ import com.t2s.testbase.TestBase;
 public class contactPageRepo extends TestBase {
 	
 	
-   // WebDriver driver;
-    SoftAssert s_assert;
-    
+
+	SoftAssert s_assert = new SoftAssert();
     @FindBy(xpath="//div[@id='map']/following-sibling::div[@class='row']")
     private WebElement contentAddressArea;
   
@@ -29,7 +29,8 @@ public class contactPageRepo extends TestBase {
  //   @FindBy(xpath="//*[@id='contactus-pag-sec']/div/div[1]/h2")
  //   private WebElement contentContactUSArea;
     
-    @FindBy(xpath="//*[@id='contactus-pag-sec']")
+ //   @FindBy(xpath="//section[@id='contactus-pag-sec']")
+    @FindBy(css="section[id='contactus-pag-sec']")
     private WebElement contentContactUSPageSection;
     
     @FindBy(linkText="Contact")
@@ -41,73 +42,6 @@ public class contactPageRepo extends TestBase {
     @FindBy(xpath = ".//*[@id = 'bodyContent']/p/a")
     private WebElement mapsAddress;
     
-    //WebElement contactText = contentContactUSPageSection.findElement(By.className("col-md-6"));
-    
-   // @FindBy(xpath="//a[@href='/contactus.php#nav']")
-   // private WebElement linkContact;
-  //button[contains(text(),'Calculate')]
- 
- /////////////////////////////////////   
-    
-    private static final String SCRIPT = "\tvar gLat = $(\"#gLat\").text();\n"
-            + "\tvar gLng = $(\"#gLng\").text();\n"
-            + "\tvar gSitename = $(\"#gSitename\").text();\n"
-            + "\tvar gNumber = $(\"#gNumber\").text();\n"
-            + "\tvar gStreet = $(\"#gStreet\").text();\n"
-            + "\tvar gTown = $(\"#gTown\").text();\n"
-            + "\tvar gCity = $(\"#gCity\").text();\n"
-            + "\tvar gPostcode = $(\"#gPostcode\").text();\n"
-            + "\tvar gPhone = $(\"#gPhone\").text();\n"
-            + "    var settings = {\n"
-            + "        zoom: 15,\n"
-            + "        center: latlng,\n"
-            + "        mapTypeControl: true,\n"
-            + "        mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},\n"
-            + "        navigationControl: true,\n"
-            + "        navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},\n"
-            + "        mapTypeId: google.maps.MapTypeId.ROADMAP};\n"
-            + "\tvar map = new google.maps.Map(document.getElementById(\"map\"), settings);\n"
-            + "\t\tvar contentString = '<div id=\"content\" style=\"width:150%; height:100%\">'+\n"
-            + "\t\t'<h1 id=\"firstHeading\" class=\"firstHeading\">Artyom</h1>'+\n"
-            + "\t\t'<div id=\"bodyContent\">'+\n"
-            + "\t\t'<p><a href=\"http://maps.google.co.uk/maps?f=d&source=s_d&saddr=&daddr=ST6%203EX\">"
-            + "32 Waterloo Road.<br>burslem<br>Stoke On Trent, Staffordshire<br>ST6 3EX</a></p>'+\n"
-            + "\t\t'</div>'+\n"
-            + "\t\t'</div>';\n"
-            + "\t\tvar infowindow = new google.maps.InfoWindow({\n"
-            + "\t\t\tcontent: contentString\n"
-            + "\t\t});\n\n"
-            + "\tvar latlng = new google.maps.LatLng(gLat, gLng);\n"
-            + "\tvar companyImage = new google.maps.MarkerImage('https://197c2b2de2695f3fc516-"
-            + "9d1369894b0466c92e9c5ccf435da7e6.ssl.cf3.rackcdn.com/images/map_logo.png',\n"
-            + "\t    new google.maps.Size(100, 50),\n"
-            + "\t    new google.maps.Point(0, 0),\n"
-            + "\t    new google.maps.Point(50, 50)\n"
-            + "\t);\n"
-            + "\n\tvar companyShadow = new google.maps.MarkerImage('https://197c2b2de2695f3fc516-"
-            + "9d1369894b0466c92e9c5ccf435da7e6.ssl.cf3.rackcdn.com/images/map_logo_shadow.png',\n"
-            + "\t    new google.maps.Size(130, 50),\n"
-            + "\t    new google.maps.Point(0, 0),\n"
-            + "\t    new google.maps.Point(65, 50)\n"
-            + "\t);\n"
-            + "\n"
-            + "\tvar companyPos = new google.maps.LatLng(gLat, gLng);\n"
-            + "\tvar companyMarker = new google.maps.Marker({\n"
-            + "\t    position: companyPos,\n"
-            + "\t    map: map,\n"
-            + "\t    icon: companyImage,\n"
-            + "\t    shadow: companyShadow,\n"
-            + "\t    title: '',\n"
-            + "\t    zIndex: 4\n"
-            + "\t});\n"
-            + "\n"
-            + "    google.maps.event.addListener(companyMarker, 'click', function() {\n"
-            + "        infowindow.open(map,companyMarker);\n"
-            + "    });\n"
-            + "\n"
-            + "\tgoogle.maps.event.trigger(companyMarker, 'click');";
-    
-    
     
   ////////////////////////////////////  
     public void clickContactLink() {
@@ -118,18 +52,23 @@ public class contactPageRepo extends TestBase {
     	}
     	catch(Exception e)
     	{
-    	Reporter.log("Error while clicking Contact link"+e.getMessage());	
+    	//SoftAssert s_assert = new SoftAssert();		
+    	Reporter.log("Error while clicking Contact link.Error message - "+e.getMessage());	
+    	s_assert.fail("Error while clicking Contact link.Error message - "+e.getMessage());
+    	//s_assert.assertAll();
     	}
     }
     
-    public void verifyContactPageHeader() {
-    	s_assert = new SoftAssert();
+    public void verifyContactPageHeader() throws IOException {
+    	
     	String contentContactUSAreaText = contentContactUSPageSection.getText().trim();
 		fnExtentContainsString (contentContactUSAreaText,"Contact us",test,"Validate Contact us header","Header text is visible","Header text is not visible");
+    	//s_assert.assertEquals(contentContactUSAreaText, "Contact us");
+    	s_assert.assertTrue(contentContactUSAreaText.contains("Contact us"), "Header mismatch");
     }
     
-    public void verifyAddress(String strCustomerName,String strDoorNumber,String strStreet,String strTown,String strCity,String strPostCode) {
-    //	s_assert = new SoftAssert();
+    public void verifyAddress(String strCustomerName,String strDoorNumber,String strStreet,String strTown,String strCity,String strPostCode) throws IOException {
+    	
     	WebElement contentAddressText = contentAddressArea.findElement(By.className("col-md-3"));
     	String contentAddressTextValue = contentAddressText.getText();
     	fnExtentContainsString (contentAddressTextValue,strCustomerName,test,"Validate Contact page - Customer Name","Name matching","Name mismatch");
@@ -138,19 +77,29 @@ public class contactPageRepo extends TestBase {
     	fnExtentContainsString (contentAddressTextValue,strTown,test,"Validate Contact page - Town","Town matching","Town mismatch");
     	fnExtentContainsString (contentAddressTextValue,strCity,test,"Validate Contact page - City","City matching","City mismatch");
     	fnExtentContainsString (contentAddressTextValue,strPostCode,test,"Validate Contact page - PostCode","PostCode matching","PostCode mismatch");
+    	s_assert.assertTrue(contentAddressTextValue.contains(strCustomerName), "Customer name mismatch");
+    	s_assert.assertTrue(contentAddressTextValue.contains(strDoorNumber), "Customer name mismatch");
+    	s_assert.assertTrue(contentAddressTextValue.contains(strStreet), "Customer name mismatch");
+    	s_assert.assertTrue(contentAddressTextValue.contains(strTown), "Customer name mismatch");
+    	s_assert.assertTrue(contentAddressTextValue.contains(strCity), "Customer name mismatch");
+    	//s_assert.assertAll();
     }
     /////////////////////////////////////////////////////////
     
-    public void verifyOpenHours(String[] arrMenuList) throws InterruptedException {
+    public void verifyOpenHours(String[] arrMenuList) throws InterruptedException, IOException {
     	ArrayList<String> childItemText = verifyChildItems(openHoursList);
         for (String item:arrMenuList )
         {
         	fnExtentContainsString (childItemText.toString(),item,test,"Validate Open Hours","Item "+ item +"is visible","Item "+ item +"is not visible");
-    
+        	s_assert.assertTrue(childItemText.contains(item), "Open hour mismatch - "+item);
         }
     }
+    public void assertAllFn()
+    {
+    	s_assert.assertAll();
+    }
     
-    public void verifyContactTextInfo(String strTakeAwayNumber,String strContactName,String strContactNumber) throws InterruptedException {
+    public void verifyContactTextInfo(String strTakeAwayNumber,String strContactName,String strContactNumber) throws InterruptedException, IOException {
    //	WebElement contactText = contentContactUSPageSection.findElement(By.className("col-md-6"));
    	    String TakeAwayFlag = "False";
    	    String ContactNameFlag = "False";
@@ -162,37 +111,41 @@ public class contactPageRepo extends TestBase {
     //	for (String e  : childItemSectionText)
     	for (int i = 0;i<childItemSectionText.size();i++)	
     //	{
-    		{
+    	{
     	System.out.println(childItemSectionText.get(i).toString());
-    	if (childItemSectionText.get(i).toString().contains(strTakeAwayNumber))
+    	if (childItemSectionText.get(i).toString().contains(strTakeAwayNumber) && TakeAwayFlag.equals("False"))
     	{
     		TakeAwayFlag = "True";
     		fnExtentContainsString (strTakeAwayNumber,strTakeAwayNumber,test,"Validate contact information","Takeaway number visible","Takeaway number is not visible");
     	}
-    	if (childItemSectionText.get(i).toString().contains(strContactName))
+    	if (childItemSectionText.get(i).toString().contains(strContactName) && ContactNameFlag.equals("False"))
     	{
     		ContactNameFlag = "True";
     		fnExtentContainsString (strContactName,strContactName,test,"Validate contact information","Contact Name visible","Contact Name is not visible");
     	}
-    	if (childItemSectionText.get(i).toString().contains(strContactNumber))
+    	if (childItemSectionText.get(i).toString().contains(strContactNumber) && ContactNumberFlag.equals("False"))
     	{
     		ContactNumberFlag = "True";
     		fnExtentContainsString (strContactNumber,strContactNumber,test,"Validate contact information","Contact Number visible","Contact Number is not visible");
     	}
-    		}
+    		
+    	}
     	if(TakeAwayFlag == "False")
     	{
-    		fnExtentContainsString ("NA",strTakeAwayNumber,test,"Validate contact information","Takeaway number visible","Takeaway number is not visible");
+    		fnExtentContainsString ("NA",strTakeAwayNumber,test,"Validate contact information","Takeaway number visible","Takeaway number mismatch");
+    		s_assert.fail("Takeaway number mismatch");
     	}	
     	
     	if(ContactNameFlag == "False")
     	{
-    		fnExtentContainsString ("NA",strContactName,test,"Validate contact information","Contact Name visible","Contact Name is not visible");
+    		fnExtentContainsString ("NA",strContactName,test,"Validate contact information","Contact Name visible","Contact name mismatch");
+    		s_assert.fail("Contact name mismatch");
     	}	
     	
     	if(ContactNumberFlag == "False")
     	{
     		fnExtentContainsString ("NA",strContactNumber,test,"Validate contact information","Contact Number visible","Contact Number is not visible");
+    		s_assert.fail("Contact number mismatch");
     	}	
 
     	}
@@ -200,20 +153,7 @@ public class contactPageRepo extends TestBase {
 
 }    
 
-/*
-    public void verifyMapAddress() {
-        contactPage.clickMapMarker();
-        assertTrue(contactPage.getMapAddress().contains(POST_CODE));
-    }
-    
-    
-    public void clickMapMarker() {
-        jsExecutor(SCRIPT);
-    }
 
-    public String getMapAddress() {
-        return mapsAddress.getText();
-    }*/
 
     
 

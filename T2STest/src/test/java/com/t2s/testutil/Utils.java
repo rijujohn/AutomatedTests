@@ -14,6 +14,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.regex.Pattern;
@@ -69,13 +70,19 @@ import org.testng.Reporter;
 
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.t2s.testbase.TestBase;
 
 
 public class Utils {
+	//public static Properties Repository = new Properties();
+	
+	//public String TakeScreenShot = TakeScreenShotIN.toUpperCase();
 	
 	public static WebDriver driver;
 	public static ExtentTest test;
 	public static String filePath = System.getProperty("user.dir") + "//src//test//java//com//t2s//screenshot//";
+
+
 	
 	///////////////////
 	String PHANTOMJS_EXECUTABLE_PATH_PROPERTY = "phantomjs.binary.path";
@@ -150,6 +157,7 @@ public class Utils {
 	}	
 	}
 	
+
 	public void implicitWait(int timeInSec)
 	{
 		Reporter.log("waiting for page to load..");
@@ -160,8 +168,9 @@ public class Utils {
 		catch (Throwable error)
 		{
 			System.out.println("Timeout for page load request");
+			Reporter.log("Timeout for page load request");
 		//	Assert.assertTrue(false,"Time out for page after" +timeInSec + " seconds");
-			Assert.assertTrue(false);
+		//	Assert.assertTrue(false);
 		}
 		
 		
@@ -262,82 +271,6 @@ public class Utils {
 	driver.switchTo().defaultContent();
 	}
 	
-	public void fnExtentCompareString (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage)
-	{   String filePathNew = fntakeScreenShot(filePath,driver);
-		if(stActual.equals(stExpected))
-		{   
-			passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
-			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
-		}
-		else
-		{
-			failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value"+ stExpected ;
-			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
-		}	
-		Reporter.log("Validation done " + testStep);
-		}
-	
-	public void fnExtentContainsString (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage)
-	{   String filePathNew = fntakeScreenShot(filePath,driver);
-		if(stActual.contains(stExpected))
-		{   
-			passMessage = passMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
-			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
-		}
-		else
-		{
-			failMessage = failMessage +".Actual Value - "+ stActual + " Expected Value - "+ stExpected ;
-			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
-		}	
-		Reporter.log("Validation done " + testStep);
-		}
-	
-	public void fnExtentContainsStringPar (String stActual,String stExpected,ExtentTest test,String testStep,String passMessage,String failMessage)
-	{   String filePathNew = fntakeScreenShot(filePath,driver);
-		if(stActual.contains(stExpected))
-		{   
-			passMessage = passMessage + ".Expected Value - "+ stExpected ;
-			test.log(LogStatus.PASS,testStep, passMessage + test.addScreenCapture(filePathNew));
-		}
-		else
-		{
-			failMessage = failMessage + ".Expected Value - "+ stExpected ;
-			test.log(LogStatus.FAIL,testStep, failMessage + test.addScreenCapture(filePathNew));
-		}	
-		Reporter.log("Validation done " + testStep);
-		}
-	
-	public String fntakeScreenShot(String filePath,WebDriver driver) {
-		 String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-		  filePath = filePath + timeStamp +".jpg" ;
-		 //filePath = "C:\\Users\\dell\\workspace\\Extent_Reports\\image\\test1.jpg";
-		 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	     //The below method will save the screen shot in d drive with test method name 
-	        try {
-				FileUtils.copyFile(scrFile, new File(filePath));
-				System.out.println("***Placed screen shot in "+ filePath +" ***");
-				return filePath;
-				
-			} catch (IOException e) {
-				e.printStackTrace();
-				System.out.println("***Error While placing screen shot "+ e.getMessage());
-				return null;
-			}
-	        }
-	
-	
-public void fnCheckAndLogExtentResult(String stepResult,String description, String passMessage,String failMessage){
-String filePathNew = fntakeScreenShot(filePath,driver);
-if (stepResult.equals("Pass"))
-{
-test.log(LogStatus.PASS,description, passMessage + test.addScreenCapture(filePathNew));
-}
-else
-{
-test.log(LogStatus.FAIL,description, failMessage + test.addScreenCapture(filePathNew));
-}	
-
-}
 
 
 public String fnSaveScreenShotByPoint() throws IOException
@@ -431,9 +364,6 @@ public float compareImage(File fileA, File fileB) {
     }
     return percentage;
 }
-
-
-
 
 
 

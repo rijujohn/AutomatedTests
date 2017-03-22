@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.uktech.test.frontEnd_Dynamic.contactPageTest">
+      <class name="com.uktech.test.frontEnd_Dynamic.orderPageTest">
         <methods>
-          <include name="contactPageTests"/>
+          <include name="orderPageTests"/>
         </methods>
-      </class> <!-- com.uktech.test.frontEnd_Dynamic.contactPageTest -->
+      </class> <!-- com.uktech.test.frontEnd_Dynamic.orderPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
