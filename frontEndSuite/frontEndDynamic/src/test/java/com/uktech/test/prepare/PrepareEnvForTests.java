@@ -94,7 +94,7 @@ public class PrepareEnvForTests extends TestBase {
 
    // @Test
     public String prepare(String token,String JSONBodyPath) {
-        String createDataScratch = "No";
+        String createDataScratch = "YES";
         
     	try {
         if (createDataScratch.equals("YES") && oFlag.equals("No"))	

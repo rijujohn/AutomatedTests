@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [t2s]">
+  <listeners>
+    <listener class-name="com.t2s.listners.Listener"/>
+  </listeners>
+  <test name="Contact Page Tests(failed)">
     <classes>
-      <class name="com.t2s.testScripts.orderPageTest">
+      <class name="com.t2s.testScripts.contactPageTest">
         <methods>
-          <include name="orderPageTests"/>
+          <include name="contactPageTests"/>
         </methods>
-      </class> <!-- com.t2s.testScripts.orderPageTest -->
+      </class> <!-- com.t2s.testScripts.contactPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Contact Page Tests(failed) -->
+</suite> <!-- Failed suite [t2s] -->

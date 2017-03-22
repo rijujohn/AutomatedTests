@@ -12,7 +12,7 @@ import com.t2s.excelReader.JSONCreator;
 import com.t2s.excelReader.ODSReader;
 import com.t2s.prepare.PrepareEnvForTests;
 
-public class createJSON {
+public class zDATACreationCreateJSON {
 	
    
 	String inputExcel = System.getProperty("user.dir") + "/src/test/java/com/t2s/testData/Json_Input.ods";

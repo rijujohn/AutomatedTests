@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.t2s.excelReader.ODSReader;
@@ -13,30 +14,25 @@ import com.t2s.pagelocators.contactPageRepo;
 import com.t2s.prepare.PrepareEnvForTests;
 import com.t2s.testbase.TestBase;
 
+import junit.framework.Assert;
+
 //import com.uktech.page.frontend.ContactPage;
 
 public class contactPageTest extends TestBase{
-	//File inputFile = new File("//home//dev//Documents//MyOwn//Input.ods");
-	String inputFileString = System.getProperty("user.dir") + "//src//test//java//com//t2s//testData//Input.ods";
+
 	File inputFile = new File(inputFileString);
-	String inputSheetName = "Contact";
-	String jsonBodyPath = System.getProperty("user.dir") + "/src/test/java/com/t2s/testData/";
 	LinkedHashMap<String, String> mapData = new LinkedHashMap<String, String>();
     int intRCount; 
-    int waitTime = 5000;
-
- //   File src = new File("//home//dev//eclipse//jee-neon//Jars//phantomjs-2.1.1-linux-i686//bin//phantomjs.exe");
-	
    
     @Test(priority = 1)
 	public void contactPageTests() throws Exception
 	{
     	    ExtentReports rep = ExtentManager.getInstances();
 			ODSReader objODSReader = new ODSReader();
-			mapData = objODSReader.readODS(inputFile,inputSheetName);
-			intRCount = objODSReader.getRowCount(inputFile, inputSheetName);
-
+			mapData = objODSReader.readODS(inputFile,contactData);
+			intRCount = objODSReader.getRowCount(inputFile, contactData);
 			PrepareEnvForTests PrepEnv = new PrepareEnvForTests();
+			//SoftAssert s_assert = new SoftAssert();
 			
 			//Initialize browser and page factory
 			initializeBrowser();
@@ -55,7 +51,8 @@ public class contactPageTest extends TestBase{
 			String JSONBodyPath = jsonBodyPath + strTemplateName+".json";
 			
 			//Update data with API
-			String strDataCreationStatus = PrepEnv.prepare(strToken,JSONBodyPath);	
+			String strDataCreationStatus = "SUCCESS";
+		//	String strDataCreationStatus = PrepEnv.prepare(strToken,JSONBodyPath);	
 			
 			//Continue if data created - retrieve input data
 			if (strDataCreationStatus.toUpperCase().equals("SUCCESS"))
@@ -73,7 +70,8 @@ public class contactPageTest extends TestBase{
 			String strOpenHours = mapData.get(i+"OpenHours");
 		    String[] arrOpenHourList = strOpenHours.split(";");
 		    //Start extent report log
-			test = rep.startTest("Contact Page Validations.Data Set "+ strURL);
+			test = rep.startTest("Contact Page Validations.Data Set_No_"+i);
+		//	s_assert = new SoftAssert();
 			openURL(strURL);
             Reporter.log("The title is - "+ driver.getTitle());
 		    implicitWait(waitTime);
@@ -85,9 +83,19 @@ public class contactPageTest extends TestBase{
 			ContactPage.verifyAddress(strCustomerName, strDoorNumber, strStreet, strTown,strCity,strPostCode);
 			ContactPage.verifyOpenHours(arrOpenHourList);
 			ContactPage.verifyContactTextInfo(strTakeAwayNumber,strContactName,strContactNumber);
+			
 			//End extent report log
+			
 	    	rep.endTest(test);
 	    	rep.flush();
+	    	
+	    	if (i == intRCount-1 ){
+	    	ContactPage.assertAllFn();
+	    	}
+			}
+			else {Reporter.log("Error while creating data for Contact page tests");
+			closeBrowser();
+            Assert.fail();
 			}
 			}
 			}	

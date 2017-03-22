@@ -8,7 +8,7 @@ public class SelenUbun {
 	//Riju Updated this time one 22 March
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+//This one is newly added by riju
 		//System.setProperty("webdriver.gecko.driver","//home//dev//Documents//MyOwn//Ver12//geckodriver");
 	//	System.setProperty("webdriver.gecko.driver","//home//dev//Documents//MyOwn//Ver12//geckodriver");
 		try{

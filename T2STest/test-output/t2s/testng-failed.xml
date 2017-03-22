@@ -11,11 +11,6 @@
           <include name="contactPageTests"/>
         </methods>
       </class> <!-- com.t2s.testScripts.contactPageTest -->
-      <class name="com.t2s.testScripts.orderPageTest">
-        <methods>
-          <include name="orderPageTests"/>
-        </methods>
-      </class> <!-- com.t2s.testScripts.orderPageTest -->
     </classes>
   </test> <!-- Contact Page Tests(failed) -->
 </suite> <!-- Failed suite [t2s] -->
