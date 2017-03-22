@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SelenUbun {
 
-	//Riju Updated this time one 22 March
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
